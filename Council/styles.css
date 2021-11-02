@@ -1,21 +1,22 @@
 body {
-	margin: 0px;
-	font-size: 13px;
-	line-height: 21px;
-	color: #000000;
-	background-color: #615F5F;
-	padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+    background-color: rgb(157, 34, 66);
+    padding: 0px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 a {
 	font-weight: bold;
 }
 nav {
-	height: 35px;
-	width: 100%;
-	margin: 0px auto 0px auto;
-	padding: 15px 10px 0px 0px;
-	background-color: #CCC;
-	border-bottom: 3px solid #600;
+    height: 35px;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 15px 10px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid #600;
 }
 nav ul {
 	width: auto;
@@ -36,14 +37,17 @@ nav a {
 nav a:hover {
 }
 header {
-	height: 290px;
-	width: 100%;
-	margin: 0px auto 0px auto;
-	padding: 70px 0px 5px 0px;
-	background-color: #CCC;
-	border-bottom: 2px solid #600;
-	float: left;
-	text-align: center;
+    height: 290px;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 70px 0px 5px 0px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #600;
+    float: left;
+    text-align: center;
+    background-image: url(images/pencils.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 div.centered-section {
 	width: 1000px;
