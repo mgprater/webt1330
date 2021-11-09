@@ -31,16 +31,29 @@ nav li {
 	text-align: left;
 }
 nav a {
-	margin: 25px 0px 0px 5px;
-	padding: 10px 20px 5px 40px;
+    margin: 25px 0px 0px 5px;
+    padding: 10px 20px 5px 40px;
+    background-image: url("images/shuttle_faded.png");
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 nav a:hover {
+    color: #9D2242;
+    background-image: url("images/shuttle_full.png");
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 header {
     height: 290px;
     width: 100%;
-    margin: 0px auto 0px auto;
-    padding: 70px 0px 5px 0px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    padding-top: 70px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 100px;
     background-color: rgb(255, 255, 255);
     border-bottom: 2px solid #600;
     float: left;
