@@ -58,6 +58,17 @@ nav ul li a:hover {
 	font-size: 15px;
 	line-height: 22px;
 }
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    clear: both;
+}
+.noClear {
+    width: auto;
+    margin-right: 10px;
+    clear: none;
+}
 
 #subpage-content img   {
 	padding: 0px;
@@ -200,9 +211,23 @@ footer a {
     background-size: cover;
 }
 .bkgSignup {
-    background-image: url("../images/backgrounds/back-mailing.jpg");
+    background-image: url("../images/backgrounds/.jpg");
     background-size: cover;
 }
 name {
 	property:value;
+}.img150px {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    float: left;
+}
+
+.imgFloatRight {
+	float: right;
+}
+iframe {
+    width: 750px;
+    border: 0;
+    height: 350px;
 }

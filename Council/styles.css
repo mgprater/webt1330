@@ -55,11 +55,11 @@ div.centered-section {
 	align-items: center;
 }
 .category {
-	width: 300px;
-	min-height: 420px;
-	margin: 20px 0px 10px 25px;
-	float: left;
-	background-color: #CCC;
+    width: 300px;
+    min-height: 420px;
+    margin: 20px 0px 10px 25px;
+    float: left;
+    background-color: #f5e9ec;
 }
 .category h2 {
 	margin: 0;

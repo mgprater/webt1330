@@ -25,14 +25,50 @@
 <section id="image-container">
   <section id="subpage-content">
 	  <!-- InstanceBeginEditable name="MainContent" -->
-  <h1>Make sure you get the latest updates!</h1>
+  <h1><strong>Make sure you get the latest updates!</strong></h1>
   <p>Sign up for our mailing list to get the latest information and updates about concert schedules, participating artists, special events and offers, merchandise discounts, and other important information for attending the Desert Voices Festival.&nbsp;</p>
+  <form action="mailto:info@voices" method="post" name="register" class="bkgSignup" id="register">
+	  
+	  <p class="bkgSignup">
+	    <input name="agree" type="checkbox" required="required" class="noClear" id="agree">
+        <label for="checkbox">Yes! Send me the latest news about the Desert Voices Music Festival!</label>
+	  </p>
+	  <p>
+	    <label for="firstname">First Name:</label>
+	    <input name="firstname" type="text" required="required" id="firstname">
+      </p>
+	<p>
+		<label for="lastname">Last Name</label>
+		<input name="Lastname" type="text" required="required" id="Lastname">
+	</p>
+	  <p>
+	    <label for="email">Email:</label>
+		  <input name="email" type="email" required="required" id="email">
+	  </p>
+	  <p>
+	    <label for="select">How did you haer about the Desert Voices Music Festival?</label>
+        <select name="source" id="select">
+          <option selected="selected">-Select-</option>
+          <option value="social">Social Media</option>
+          <option value="radio">Radio Ad</option>
+          <option value="email">Email</option>
+          <option value="website">Website Ad</option>
+          <option value="paper">Newspaper</option>
+          <option value="friend">Friend</option>
+        </select>
+	  </p>
+	  
+	  <p>
+	    <input name="submit" type="submit" class="noClear" id="submit" value="Sign me up!">
+	  <input name="reset" type="reset" class="noClear" id="reset" value="Reset">
+	  </p>
+  </form>
 	<p>&nbsp;</p>
-<!-- InstanceEndEditable --> 
+    <!-- InstanceEndEditable --> 
   </section>
   
   <section id="subpage-logo"> 
-	  <img src="images/festival-logo.png" alt="Desert Voices Food Art and Music Festival" width="430" height="75" /> 
+    <img src="images/festival-logo.png" alt="Desert Voices Food Art and Music Festival" width="430" height="75" /> 
   </section>
 </section>
 
