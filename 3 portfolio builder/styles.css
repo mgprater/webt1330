@@ -3,7 +3,7 @@ body {
     font-size: 13px;
     line-height: 21px;
     color: #000000;
-    background-color: rgb(157, 34, 66);
+    background-color: rgba(3,59,146,1.00);
     padding: 0px;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -36,9 +36,11 @@ nav a {
     background-image: url("images/shuttle_faded.png");
     background-repeat: no-repeat;
     background-position: left center;
+    background-size: contain;
+    color: #1D0E0F;
 }
 nav a:hover {
-    color: #9D2242;
+    color: #FC3B1D;
     background-image: url("images/shuttle_full.png");
     background-repeat: no-repeat;
     background-position: left center;

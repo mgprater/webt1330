@@ -75,11 +75,11 @@ input {
 	background-color: rgba(100,100,100,1.00)
 }
 #subpage-content h1 {
-	font-size: 2em;
-	font-weight: 600;
-	padding: 0px;
-	margin: 0px 0px 20px 0px;
-	text-indent: 0px;
+    font-size: 2em;
+    font-weight: 200;
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+    text-indent: 0px;
 } 
 article.two-column {
 	margin: 0px 0px 0px 0px;
