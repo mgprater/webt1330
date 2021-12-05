@@ -5,7 +5,7 @@ p {
     font-family: tinos;
     font-style: normal;
     font-weight: 400;
-    color: #000000;
+    color: #272727;
 }
 ul {
     font-family: tinos;
@@ -33,6 +33,7 @@ div {
     font-weight: bold;
     float: none;
     font-size: 25px;
+    color: #272727;
 }
 .row .col-lg-6 .text-center {
     border-width: medium;
