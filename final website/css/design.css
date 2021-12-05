@@ -14,6 +14,9 @@ ul {
     font-size: large;
     color: #D4A465;
 }
+.nav.nav-tabs .nav-item .nav-link {
+    color: #CD9E61;
+}
 .row .col-lg-6 h1 {
     color: #CD9E61;
 }
@@ -29,6 +32,7 @@ div {
 .container .row .col-lg-12 {
     font-weight: bold;
     float: none;
+    font-size: 25px;
 }
 .row .col-lg-6 .text-center {
     border-width: medium;
@@ -39,4 +43,6 @@ div {
     word-spacing: normal;
     list-style-type: none;
     border-width: thick;
+}
+.p {
 }
