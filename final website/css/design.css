@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-color:#EDEDED
+}
 p {
     font-family: tinos;
     font-style: normal;
@@ -13,6 +16,7 @@ ul {
     font-weight: 400;
     font-size: large;
     color: #D4A465;
+    background-color: #FFFFFF;
 }
 .nav.nav-tabs .nav-item .nav-link {
     color: #CD9E61;
